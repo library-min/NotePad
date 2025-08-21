@@ -2,9 +2,12 @@
 
 ## 📸 스크린샷
 
-[메인 화면]
+<div align="center">
+
+  **메인 화면**
 
 ![alt text](public/Memo.png)
+</div>
 
 ---
 
