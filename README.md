@@ -1,10 +1,8 @@
 # 📝 Memo CRUD
 
-📸 **스크린샷**
+## 📸 스크린샷
 
-## 메인 화면
-
-![메인 화면](https://via.placeholder.com/800x500/f8f9fa/333333?text=Clean+Memo+App)
+![alt text](public/Memo.png)
 
 *깔끔하고 읽기 쉬운 메모장 인터페이스*
 
