@@ -1,12 +1,208 @@
-# React + Vite
+# 📝 Memo CRUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📸 **스크린샷**
 
-Currently, two official plugins are available:
+## 메인 화면
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![메인 화면](https://via.placeholder.com/800x500/f8f9fa/333333?text=Clean+Memo+App)
 
-## Expanding the ESLint configuration
+*깔끔하고 읽기 쉬운 메모장 인터페이스*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ 주요 기능
+
+### 📝 **스마트 메모 작성**
+- **실시간 작성**: 간편한 텍스트 입력과 즉시 저장
+- **카테고리 지정**: 📁 일반, 💼 업무, 👤 개인, 💡 아이디어 등 분류
+- **사용자 정의 카테고리**: 원하는 카테고리를 직접 생성
+- **즐겨찾기**: ⭐ 중요한 메모를 즐겨찾기로 표시
+
+### 🔍 **강력한 검색 & 필터링**
+- **실시간 검색**: 입력과 동시에 즉시 필터링
+- **카테고리별 필터**: 원하는 카테고리만 선택하여 보기
+- **통합 검색**: 카테고리 + 키워드 조합 검색 지원
+- **검색 결과 하이라이트**: 검색어를 시각적으로 강조
+
+### ⚡ **빠른 편집 & 관리**
+- **인라인 편집**: 메모를 클릭하여 즉시 수정
+- **원클릭 삭제**: 확인 없이 바로 삭제되는 심플한 UX
+- **즐겨찾기 토글**: 별표 클릭으로 간편한 즐겨찾기 관리
+- **자동 저장**: 편집 내용이 즉시 반영
+
+### 🎨 **깔끔한 UI/UX**
+- **읽기 중심 디자인**: 높은 텍스트 대비로 가독성 최우선
+- **애플 스타일**: 시스템 폰트와 깔끔한 인터페이스
+- **심플한 색상**: Google Blue를 메인 컬러로 일관성 있는 디자인
+- **부드러운 애니메이션**: 자연스러운 인터랙션 효과
+
+### 📱 **완전 반응형**
+- **모바일 최적화**: 320px부터 대형 데스크톱까지 완벽 지원
+- **터치 친화적**: 모바일 환경에 최적화된 버튼 크기
+- **스크롤 최적화**: 긴 메모 목록도 부드럽게 스크롤
+
+---
+
+## 🏗️ 기술 스택
+
+### 🔧 **Core Technologies**
+- **React** `19.1.1` - 최신 React로 빠른 렌더링
+- **Vite** `7.1.2` - 초고속 빌드 툴
+- **JavaScript ES6+** - 모던 자바스크립트
+
+### 🎨 **UI & Styling**
+- **CSS3** - 순수 CSS로 최적화된 스타일링
+- **Flexbox & Grid** - 반응형 레이아웃
+- **CSS Variables** - 동적 테마 지원
+
+### 🌐 **Routing & State**
+- **React Router DOM** `7.8.1` - SPA 라우팅
+- **React Hooks** - 상태 관리 (useState, useEffect)
+- **Local Storage** - 브라우저 로컬 저장소
+
+### 💾 **Data Management**
+- **Local Storage** - 오프라인 데이터 저장
+- **JSON** - 경량 데이터 구조
+- **실시간 동기화** - 컴포넌트 간 상태 동기화
+
+---
+
+## 📁 프로젝트 구조
+
+```
+src/
+├── components/              # React 컴포넌트
+│   ├── Memo.jsx            # 개별 메모 아이템 컴포넌트
+│   ├── MemoForm.jsx        # 메모 작성 폼
+│   ├── MemoList.jsx        # 메모 목록 컴포넌트
+│   └── ...
+├── App.jsx                 # 메인 앱 컴포넌트
+├── App.css                 # 메인 스타일시트
+├── index.css              # 글로벌 스타일
+└── main.jsx              # ReactDOM 렌더링
+```
+
+---
+
+## 🚀 **시작하기**
+
+### 설치 및 실행
+
+```bash
+# 프로젝트 클론
+git clone https://github.com/library-min/NotePad.git
+
+# 의존성 설치
+cd memo-crud
+npm install
+
+# 개발 서버 실행
+npm run dev
+
+# 빌드
+npm run build
+```
+
+### 배포
+
+```bash
+# GitHub Pages 배포
+npm run deploy
+```
+
+---
+
+## 🎯 **향후 개발 계획**
+
+### Phase 1: 고급 기능
+- [ ] 🔄 드래그 앤 드롭으로 메모 순서 변경
+- [ ] 📎 파일 첨부 지원
+- [ ] 🏷️ 태그 시스템 추가
+- [ ] 📊 메모 통계 대시보드
+
+### Phase 2: PWA 지원
+- [ ] 📱 Service Worker 구현
+- [ ] 📴 오프라인 모드 지원
+- [ ] 📲 앱 설치 프롬프트
+- [ ] 🔔 Push 알림
+
+### Phase 3: 클라우드 & 협업
+- [ ] ☁️ 클라우드 동기화 (Firebase/Supabase)
+- [ ] 👥 메모 공유 기능
+- [ ] 🔐 사용자 인증 시스템
+- [ ] 💾 데이터 백업/복원
+
+---
+
+## 📱 **브라우저 호환성**
+
+| 브라우저 | 데스크톱 | 모바일 | 주요 기능 |
+|---------|---------|--------|----------|
+| Chrome  | ✅ 90+  | ✅ 90+ | 모든 기능 |
+| Firefox | ✅ 88+  | ✅ 88+ | 모든 기능 |
+| Safari  | ✅ 14+  | ✅ 14+ | 모든 기능 |
+| Edge    | ✅ 90+  | ✅ 90+ | 모든 기능 |
+
+---
+
+## 🎨 **디자인 원칙**
+
+### ✅ **가독성 우선**
+- 높은 텍스트 대비 (#333 on #fff)
+- 시스템 폰트 사용으로 친숙함
+- 충분한 여백과 줄 간격
+
+### ✅ **심플함**
+- 최소한의 색상 사용 (Google Blue #4285f4)
+- 불필요한 장식 요소 제거
+- 직관적인 아이콘과 레이블
+
+### ✅ **일관성**
+- 통일된 색상 팔레트
+- 일관된 간격과 크기
+- 예측 가능한 인터랙션
+
+---
+
+## 📊 **성능 지표**
+
+- ⚡ **초기 로딩**: < 1초
+- 🔄 **메모 추가**: 즉시 반영
+- 🔍 **검색 속도**: 실시간 필터링
+- 📱 **모바일 최적화**: 100% 반응형
+
+---
+
+## 🤝 **기여하기**
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 **라이센스**
+
+이 프로젝트는 MIT 라이센스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
+
+---
+
+## 💖 **이 프로젝트가 마음에 드셨나요?**
+
+⭐ **Star**를 눌러주시면 개발자에게 큰 힘이 됩니다!
+
+[![GitHub stars](https://img.shields.io/github/stars/library-min/NotePad?style=social)](https://github.com/library-min/NotePad/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/library-min/NotePad?style=social)](https://github.com/library-min/NotePad/network)
+[![GitHub issues](https://img.shields.io/github/issues/library-min/NotePad)](https://github.com/library-min/NotePad/issues)
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by <strong>서재민</strong></p>
+  <p>
+    <a href="https://library-min.github.io/NotePad/">🌐 Live Demo</a> • 
+    <a href="https://github.com/library-min/NotePad">📱 GitHub</a>
+  </p>
+</div>

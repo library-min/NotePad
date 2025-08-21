@@ -1,10 +1,12 @@
 {
+    "homepage": "https://library-min.github.io/NotePad/",
     "name": "memo-crud",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
+        "deploy": "gh-pages -d docs",
         "build": "vite build --outDir docs",
         "lint": "eslint .",
         "preview": "vite preview"
