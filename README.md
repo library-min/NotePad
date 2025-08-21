@@ -84,34 +84,6 @@ src/
 
 ---
 
-## 🚀 **시작하기**
-
-### 설치 및 실행
-
-```bash
-# 프로젝트 클론
-git clone https://github.com/library-min/NotePad.git
-
-# 의존성 설치
-cd memo-crud
-npm install
-
-# 개발 서버 실행
-npm run dev
-
-# 빌드
-npm run build
-```
-
-### 배포
-
-```bash
-# GitHub Pages 배포
-npm run deploy
-```
-
----
-
 ## 🎯 **향후 개발 계획**
 
 ### Phase 1: 고급 기능
@@ -164,15 +136,6 @@ npm run deploy
 
 ---
 
-## 📊 **성능 지표**
-
-- ⚡ **초기 로딩**: < 1초
-- 🔄 **메모 추가**: 즉시 반영
-- 🔍 **검색 속도**: 실시간 필터링
-- 📱 **모바일 최적화**: 100% 반응형
-
----
-
 ## 🤝 **기여하기**
 
 1. Fork the Project
@@ -182,27 +145,3 @@ npm run deploy
 5. Open a Pull Request
 
 ---
-
-## 📄 **라이센스**
-
-이 프로젝트는 MIT 라이센스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
-
----
-
-## 💖 **이 프로젝트가 마음에 드셨나요?**
-
-⭐ **Star**를 눌러주시면 개발자에게 큰 힘이 됩니다!
-
-[![GitHub stars](https://img.shields.io/github/stars/library-min/NotePad?style=social)](https://github.com/library-min/NotePad/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/library-min/NotePad?style=social)](https://github.com/library-min/NotePad/network)
-[![GitHub issues](https://img.shields.io/github/issues/library-min/NotePad)](https://github.com/library-min/NotePad/issues)
-
----
-
-<div align="center">
-  <p>Made with ❤️ by <strong>서재민</strong></p>
-  <p>
-    <a href="https://library-min.github.io/NotePad/">🌐 Live Demo</a> • 
-    <a href="https://github.com/library-min/NotePad">📱 GitHub</a>
-  </p>
-</div>
